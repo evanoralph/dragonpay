@@ -1,0 +1,30 @@
+{
+    "name": "eden-dragonpay",
+    "description": "Eden Node JS Dragonpay",
+    "version": "0.0.1",
+    "author": {
+        "name": "Jernon Magcalas",
+        "email": "jernonmagcalas@gmail.com"
+    },
+    "keywords": [
+        "eden",
+        "library"
+    ],
+    "devDependencies": {
+        "mocha": "1.21.4",
+        "mocha-jshint": "0.0.9"
+    },
+    "dependencies": {
+        "eden-class": "0.0.23",
+        "eden-string": "0.0.31",
+        "eden-rest" : "0.0.23"
+    },
+    "main": "./dragonpay.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/edenjs/dragonpay.git"
+    },
+    "scripts": {
+        "test": "mocha --harmony"
+    }
+}
