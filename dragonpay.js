@@ -6,10 +6,10 @@ module.exports = require('eden-class').extend(function() {
 
     /* Constants
      -------------------------------*/
-    this.LIVE_PAYMENT_URL = 'http://gw.dragonpay.ph/Pay.aspx';
+    this.LIVE_PAYMENT_URL = 'https://gw.dragonpay.ph/Pay.aspx';
     this.TEST_PAYMENT_URL = 'http://test.dragonpay.ph/Pay.aspx';
 
-    this.LIVE_REQUEST_URL = 'http://gw.dragonpay.ph/MerchantRequest.aspx';
+    this.LIVE_REQUEST_URL = 'https://gw.dragonpay.ph/MerchantRequest.aspx';
     this.TEST_REQUEST_URL = 'http://test.dragonpay.ph/MerchantRequest.aspx';
 
     this.OPERATION_STATUS = 'GETSTATUS';
